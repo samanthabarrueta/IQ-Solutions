@@ -1,3 +1,14 @@
 .navbar {
-    background-color: rgba(255, 187, 0, 0.829);
+    background-color: rgba(93, 154, 179, 0.829);
+    text-transform: uppercase;
+}
+
+.h1 {
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
 }
