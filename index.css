@@ -33,3 +33,11 @@ a:hover {
     padding-bottom: 50px;
     padding-top: 50px;
 }
+
+#covid19 {
+    background-color: rgba(2, 27, 134, 0.829);
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 5px;
+}
