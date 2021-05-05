@@ -1,19 +1,24 @@
 .navbar {
-    background-color: rgba(93, 154, 179, 0.829);
+    background-color: white;
     text-transform: uppercase;
 }
 
 .nav-item {
     align-items: center;
     display: flex;
+    color: black;
 }
 
-.h1 {
-    font-size: larger;
-    text-transform: uppercase;
+a:hover {
+    color: black;
 }
 
 .btn {
     display: inline-block;
+    text-transform: uppercase;
+}
+
+.h1 {
+    font-size: larger;
     text-transform: uppercase;
 }
