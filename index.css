@@ -22,3 +22,14 @@ a:hover {
     font-size: larger;
     text-transform: uppercase;
 }
+
+#intro {
+    background-color: rgba(2, 27, 134, 0.829);
+    margin-top: 20px;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
