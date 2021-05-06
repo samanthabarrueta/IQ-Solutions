@@ -8,6 +8,8 @@
         <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
         <link rel='stylesheet' href='./index.css'>
         <link rel='icon' href='./assets/images/house.png' type='image/icon type'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
     </head>
 
     <body>
@@ -18,17 +20,25 @@
                 </div>
             </div>
 
-            <nav class='navbar navbar-expand'>
-                <div class='navbar-nav'>
-                    <a class='navbar-brand' href='#'><img src='./assets/images/house.png' width='75' height='50' alt='logo'></a>
-                    <a class='nav-item nav-link' href='#'>Services</a>
-                    <a class='nav-item nav-link' href='#'>Pricing</a>
-                    <a class='nav-item nav-link' href='#'>About Us</a>
-                </div>
-                <div class='ml-auto'>    
-                    <a class='nav-item nav-link' href='#'><button type='button' class='btn btn-warning'>Call for Free Estimate: 708-xxx-xxxx</button></a>
-                </div>
-            </nav>
+            <div class='row'>
+                <nav class='navbar navbar-expand-md'>
+                    <a class='navbar-brand collapse navbar-collapse' href='#'><img src='./assets/images/house.png' width='75' height='50' alt='logo' id='logo'></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+                    <div class='collapse navbar-collapse col mr-auto' id="navbarTogglerDemo02">
+                        <div class='navbar-nav'>
+                            <a class='nav-item nav-link' href='#'>Services</a>
+                            <a class='nav-item nav-link' href='#'>Pricing</a>
+                            <a class='nav-item nav-link' href='#'>About Us</a>
+                        </div>
+                    </div>
+                    <div class='col-lg-4 ml-auto'> 
+                        <a class='nav-item nav-link d-md-none' align='center' href='#'><h2>Indoor Quality Solutions</h2></a>   
+                        <a class='nav-item nav-link' href='#'><button type='button' class='btn btn-warning'>Call for Free Estimate: 708-xxx-xxxx</button></a>
+                    </div>
+                </nav>
+            </div>
             
             <div class='row' align='center' id='intro'>
                 <div class='col-lg'>
@@ -43,7 +53,8 @@
             </div>
         </div>
 
-        <!-- <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-        <script src='./index.js'></script> -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
