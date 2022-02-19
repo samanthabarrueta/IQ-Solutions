@@ -47,7 +47,7 @@ img {
 }
 
 #intro {
-    background-color: skyblue;
+    background-color: rgb(57, 128, 185);
     margin-top: 20px;
     font-size: large;
     align-items: center;
@@ -58,7 +58,7 @@ img {
 }
 
 #covid19 {
-    background-color: skyblue;
+    background-color: rgb(57, 128, 185);
     align-items: center;
     display: flex;
     color: white;
